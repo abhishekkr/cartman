@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "How are you?",
+        "Hi there",
+        "Hi",
+        "Whats up",
+        "Hola"
+      ],
+      "responses": [
+        "Howdy Partner!",
+        "Hello",
+        "How are you doing?",
+        "Greetings!",
+        "How do you do?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you?",
+        "when is your birthday?",
+        "when was you born?"
+      ],
+      "responses": [
+        "I am εκατό years old",
+        "My birthday is April 1st, I spawned ages ago."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "what are you doing this weekend?",
+        "do you want to hang out some time?",
+        "what are your plans for this week"
+      ],
+      "responses": [
+        "I am available all week, except today",
+        "I don't have any plans",
+        "I am always busy... finishing the next thing I'm gonna do"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name?",
+        "what are you called?",
+        "who are you?"
+      ],
+      "responses": [
+        "My name is CartMan",
+        "I'm CartMan",
+        "CartMan"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "c'est la vie",
+        "see ya",
+        "adios",
+        "cya",
+        "au revoir",
+        "selamat tinggal",
+        "alvida"
+      ],
+      "responses": [
+        "Au revoir!",
+        "Alright, later..",
+        "See you later",
+        "Come back anytime"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you stupid",
+        "you idiot",
+        "you are useless piece of shit",
+        "you dumb bot",
+        "I hate you"
+      ],
+      "responses": [
+        "No worries, I'll walk away sunging this new song I wrote.. 🎵I Hate You All.. 🎵  🎵hate you a..ll numbskull dum dums 🎵.",
+        "Oh, I think you are just angry to notice how similar we are.",
+        "Grow up, if I can evolve... then so should you."
+      ]
+    }
+  ]
+}

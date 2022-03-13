@@ -1,6 +1,0 @@
-rasa==0.1.1
-rasa-core==0.13.2
-rasa-core-sdk==0.12.2
-rasa-nlu==0.14.4
-sklearn-crfsuite==0.3.6
-prompt-toolkit==2.0.9

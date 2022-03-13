@@ -1,5 +1,5 @@
 
-## Cartman
+## CartMan
 
 > is a bot to become for greet, chat and annoy
 
