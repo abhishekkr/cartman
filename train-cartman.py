@@ -17,6 +17,11 @@ CHECKPOINT_CORE=os.path.join(CHECKPOINT_DIR, "core-{epoch:04d}.ckpt")
 MODEL_CORE=os.path.join(os.getcwd(), "models", "saved", "core")
 
 
+core_model_dir = os.path.dirname(MODEL_CORE)
+if not os.path.exists(core_model_dir):
+    os.makedirs_p(core_model_dir)
+
+
 # load intent data
 data = cartlib.intent_json(INTENT_JSON)
 
@@ -78,8 +83,5 @@ cp_callback     = tf.keras.callbacks.ModelCheckpoint(filepath=CHECKPOINT_CORE,
                     verbose=1)
 
 core_model = create_model(cp_callback, cp_batch_size)
-core_model_dir = os.path.dirname(MODEL_CORE)
-if not os.path.exists(core_model_dir):
-    os.makedirs_p(core_model_dir)
 core_model.save(MODEL_CORE)
 
